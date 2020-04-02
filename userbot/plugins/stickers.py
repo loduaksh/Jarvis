@@ -29,7 +29,7 @@ from telethon.tl.types import (
 from userbot.utils import admin_cmd
 from userbot import ALIVE_NAME
 
-DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "GujjuBot"
+DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "Bot"
 FILLED_UP_DADDY = "Invalid pack selected."
 
 @borg.on(admin_cmd(pattern="kang ?(.*)"))
@@ -50,11 +50,11 @@ async def _(event):
         user.first_name = user.id
     pack = 1
     userid = event.from_id
-    #packname = f"JayukeStickers"
-    #packshortname = f"GujjuBot_{userid}_ns"  # format: Uni_Borg_userid
+    #packname = f"NeerajkeStickers"
+    #packshortname = f"Bot_{userid}_ns"  # format: Uni_Borg_userid
     if userid == 586949777:
         packname = f"NeerajkeStickers"
-        packshortname = "Neeraj_ke_locker_mein"
+        packshortname = "Neeraj_ke_Locker_mein"
     else:
         packname = f"KangPack{userid}"
         packshortname = f"KangPack_{userid}_ns"
