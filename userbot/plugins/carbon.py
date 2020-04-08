@@ -130,9 +130,9 @@ async def carbon_api(e):
 
    driver.find_element_by_xpath("//button[contains(text(),'Export')]").click()
 
-   driver.find_element_by_xpath("//button[contains(text(),'4x')]").click()
+  # driver.find_element_by_xpath("//button[contains(text(),'4x')]").click()
 
-   driver.find_element_by_xpath("//button[contains(text(),'PNG')]").click()
+  # driver.find_element_by_xpath("//button[contains(text(),'PNG')]").click()
 
    await e.edit("`Processing..\n75%`")
 
@@ -152,7 +152,7 @@ async def carbon_api(e):
 
          file,
 
-         caption="<< Here's your carbon, \n Carbonised by [GujjuBot](https://www.github.com/GujjuBot)>> ",
+         caption="<< Here's your carbon, \n Carbonised by [Your Dad](https://www.github.com/neerajregmi10/userBot)>> ",
 
          force_document=True,
 
@@ -160,7 +160,7 @@ async def carbon_api(e):
 
          )
 
-   os.remove('./GujjuBot.png')
+   os.remove('./userBot.png')
 
    driver.quit()
 
