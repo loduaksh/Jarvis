@@ -11,9 +11,9 @@ PREV_REPLY_MESSAGE = {}
 
 
 DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "Set ALIVE_NAME in config vars in Heroku"
-USER_BOT_WARN_ZERO = "`You were spamming my peru master's inbox, henceforth your retarded lame ass has been blocked by my master's userbot.` "
-USER_BOT_NO_WARN = ("[──▄█▀█▄─────────██ \n▄████████▄───▄▀█▄▄▄▄ \n██▀▼▼▼▼▼─▄▀──█▄▄ \n█████▄▲▲▲─▄▄▄▀───▀▄ \n██████▀▀▀▀─▀────────▀▀](tg://user?id=586949777)\n\n"
-                    "`Hello, this is FBI.You have found your way here to my master,`"
+USER_BOT_WARN_ZERO = "`Dont spam this is your last warning !!.` "
+USER_BOT_NO_WARN = ("(tg://user?id=586949777)\n\n"
+                    "`Hello!! You have permission to talk to my master ?? ,`"
                     f"{DEFAULTUSER}`'s inbox.\n"
                     
                     "** Shut up and wait for me to approve you.**")
