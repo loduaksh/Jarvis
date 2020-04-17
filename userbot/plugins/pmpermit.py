@@ -12,9 +12,8 @@ PREV_REPLY_MESSAGE = {}
 
 DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "Set ALIVE_NAME in config vars in Heroku"
 USER_BOT_WARN_ZERO = "`Dont spam this is your last warning !!.` "
-USER_BOT_NO_WARN = ("**Hello!!** `You have permission to talk to my peru owner ?? `"
-                    f"{DEFAULTUSER}.\n"
-                    
+USER_BOT_NO_WARN = ("**Hello!!** `You have permission to talk to my peru owner ?? `\n"
+                                       
                     "**Relax and wait for me to approve you.**")
 
 
