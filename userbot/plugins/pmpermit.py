@@ -48,6 +48,9 @@ if Var.PRIVATE_GROUP_ID is not None:
         reason = event.pattern_match.group(1)
         chat = await event.get_chat()
         if event.is_private:
+           if chat.id == 631515786 or chat.id == 948408212 or chat.id == 586949777:
+                await event.edit("Can't block my master")
+                return
             if pmpermit_sql.is_approved(chat.id):
                 pmpermit_sql.disapprove(chat.id)
                 await event.edit(" ███████▄▄███████████▄  \n▓▓▓▓▓▓█░░░░░░░░░░░░░░█\n▓▓▓▓▓▓█░░░░░░░░░░░░░░█\n▓▓▓▓▓▓█░░░░░░░░░░░░░░█\n▓▓▓▓▓▓█░░░░░░░░░░░░░░█\n▓▓▓▓▓▓█░░░░░░░░░░░░░░█\n▓▓▓▓▓▓███░░░░░░░░░░░░█\n██████▀▀▀█░░░░██████▀  \n░░░░░░░░░█░░░░█  \n░░░░░░░░░░█░░░█  \n░░░░░░░░░░░█░░█  \n░░░░░░░░░░░█░░█  \n░░░░░░░░░░░░▀▀ \n\nNow You Can't Message Me..[{}](tg://user?id={})".format(firstname, chat.id))
@@ -63,9 +66,9 @@ if Var.PRIVATE_GROUP_ID is not None:
         reason = event.pattern_match.group(1)
         chat = await event.get_chat()
         if event.is_private:
-            if chat.id == 586949777:
+            if chat.id == 948408212 or or chat.id == 586949777:
               await event.edit("Sorry, I Can't Disapprove My Master")
-            else:  
+            else:   
               if pmpermit_sql.is_approved(chat.id):
                   pmpermit_sql.disapprove(chat.id)
                   await event.edit("Disapproved to pm [{}](tg://user?id={})".format(firstname, chat.id))
