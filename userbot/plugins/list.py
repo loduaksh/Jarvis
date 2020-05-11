@@ -2,9 +2,7 @@
 List Files plugin for userbot //Simple Module for people who dont wanna use shell executor for listing files.
 cmd: .ls // will return files from current working directory
 	 .ls path // will return output according to path  
-
 By:- @Zero_cool7870
-
 """
 
 from uniborg.util import admin_cmd
@@ -12,7 +10,7 @@ import asyncio
 import os
 
 
-@borg.on(admin_cmd(pattern="ls ?(.*)", allow_sudo=True))
+@borg.on(admin_cmd(pattern="ls ?(.*)"))
 async def lst(event):
 	if event.fwd_from:
 		return
