@@ -47,6 +47,6 @@ async def sleepybot(time):
 async def bot_support(wannahelp):
     """ For .support command, just returns the group link. """
     if not wannahelp.text[0].isalpha() and wannahelp.text[0] not in ("/", "#", "@", "!"):
-        await wannahelp.edit("[Jarvis](https://t.me/joinchat/IvwkkR0eoeU6qchMUToJxA)")
+        await wannahelp.edit("Join Support group [Jarvis](https://t.me/joinchat/IvwkkR0eoeU6qchMUToJxA)")
 
 
