@@ -66,7 +66,7 @@ async def apk(e):
 
         app_details += "\n<code>Features :</code> <a href='"+app_link+"'>View in Play Store</a>"
 
-        app_details += "\n\n===> @IndianBot_Official <==="
+        app_details += "\n\n===>  [Jarvis](https://t.me/joinchat/IvwkkR0eoeU6qchMUToJxA) <==="
 
         await e.edit(app_details, link_preview = True, parse_mode = 'HTML')
 
@@ -122,9 +122,9 @@ async def apkr(e):
 
         app_details += "\n<code>Features :</code> <a href='"+app_link+"'>View in Play Store</a>"
 
-        app_details += "\n\n<b>Download : </b> <a href='https://t.me/IndianBot_Official'>Request_Here by typing #request</a>"
+        app_details += "\n\n<b>Download : </b>  [Jarvis](https://t.me/joinchat/IvwkkR0eoeU6qchMUToJxA) Request_Here by typing #request</a>"
 
-        app_details += "\n\n===> @IndianBot_Official <==="
+        app_details += "\n\n===>  [Jarvis](https://t.me/joinchat/IvwkkR0eoeU6qchMUToJxA) <==="
 
         await e.edit(app_details, link_preview = True, parse_mode = 'HTML')
 
