@@ -12,9 +12,9 @@ PREV_REPLY_MESSAGE = {}
 
 DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "Set ALIVE_NAME in config vars in Heroku"
 USER_BOT_WARN_ZERO = "`Dont spam this is your last warning !!.` "
-USER_BOT_NO_WARN = ("**Hello!!** `You have permission to talk to my peru owner ?? `\n"
+USER_BOT_NO_WARN = ("**Hello [{}](tg://user?id={})!!** `You have permission to talk to me ?? `\n"
                                        
-                    "**Relax and wait for me to approve you.**")
+                    "`Relax and wait for me to approve you`.")
 
 
 if Var.PRIVATE_GROUP_ID is not None:
