@@ -1,7 +1,7 @@
-# Bot
+# Jarvis
 This is a userbot made for telegram. I made this userbot with help of all other userbots available in telegram.
 
-For any query or want to know how it works join
+For any query or want to know how it works join 
 # Thanks to @halto_tha and snapdragon
 
 # FORK AT YOUR OWN RISK
@@ -15,8 +15,8 @@ For any query or want to know how it works join
 
 Simply clone the repository and run the main file:
 ```sh
-git clone https://github.com/japarmar/GujjuBot
-cd userBot
+git clone https://github.com/neerajregmi10/jarvis
+cd jarvis
 virtualenv -p /usr/bin/python3 venv
 . ./venv/bin/activate
 pip install -r requirements.txt
