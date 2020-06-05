@@ -1,5 +1,5 @@
 {
-  "name": "Bot",
+  "name": "Jarvis",
   "description": "Userbot created by a SNAPDRAGON and modified by @Halto_Tha\n",
   "logo": "https://telegra.ph/file/5131193c816e303426e32.png",
   "keywords": [
@@ -9,7 +9,7 @@
     "modular",
     "productivity"
   ],
-  "repository": "https://github.com/neerajregmi10/userBot",
+  "repository": "https://github.com/neerajregmi10/jarvis",
   "website": "#TODO",
   "success_url": "#TODO",
   "env": {
