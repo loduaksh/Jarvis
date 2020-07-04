@@ -159,8 +159,7 @@ async def promote(promt):
             f"CHAT: {promt.chat.title}(`{promt.chat_id}`)")
 
 
-#@register(outgoing=True, pattern="^.demote(?: |$)(.*)")
-@borg.on(admin_cmd(pattern=r"demote(?: |$)(.*)")
+@borg.on(admin_cmd(pattern=r"demote(?: |$)(.*)"))
 @errors_handler
 async def demote(dmod):
     """ For .demote command, demotes the replied/tagged person """
@@ -209,7 +208,8 @@ async def demote(dmod):
             f"USER: [{user.first_name}](tg://user?id={user.id})\n"
             f"CHAT: {dmod.chat.title}(`{dmod.chat_id}`)")
 
-
+        
+        
 #@register(outgoing=True, pattern="^.ban(?: |$)(.*)")
 @borg.on(admin_cmd(pattern=r"ban(?: |$)(.*)"))
 @errors_handler
